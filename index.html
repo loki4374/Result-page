@@ -266,6 +266,61 @@ login_form.style.display="none";
     login_form.style.display = "none"; 
 });
 
+
+document.onmousedown=disableclick;
+    status="Right Click Disabled";
+    function disableclick(e)
+    {
+      if(e.button==2)
+       {
+         alert(status);
+         return false;    
+       }
+    }
+   
+
+
+		
+		
+		var fooder_s;
+	
+		$(function() {
+    $(window).resize(function() 
+	{	
+		fooder_s=56;
+		if($('#page').height()+$('#page').offset().top+fooder_s < $(window).height())
+		$('#page').height($(window).height() - ($('#page').offset().top+fooder_s));
+		
+		var div= document.getElementById('page'); // need real DOM Node, not jQuery wrapper
+		var hasVerticalScrollbar= div.scrollHeight>div.clientHeight;	
+		
+		if(!hasVerticalScrollbar)
+       	{
+			
+	   		$('#page').height($(window).height() - ($('#page').offset().top+fooder_s));
+		}
+		var hasVerticalScrollbar= div.scrollHeight>div.clientHeight;
+		if(hasVerticalScrollbar)
+		{	
+			document.getElementById("page").style.height='auto';
+		}	
+		else
+		{
+			  $('#page').height($(window).height() - ($('#page').offset().top+fooder_s));
+			  
+		}	
+    });
+	 $('#page').resize(function() {
+	 				
+				 $('#page').height($(window).height() - ($('#page').offset().top+fooder_s));
+				 
+    });	
+    $(window).resize();
+	$('#page').resize();
+	
+	
+});	
+
 </script>
 
 </body>
