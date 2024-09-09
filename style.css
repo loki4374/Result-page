@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    background:url(img/login_bg.jpg);
+}
+
+.wrapper {
+    position: relative;
+    width: 980px;
+    min-width: 980px;
+    height: auto;
+    margin: 15px auto 0 auto;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0px 5px 20px 2px rgba(0, 0, 0, 0.1);
+    bottom: 0px;
+}
+nav {
+    height: 85px;
+    position: relative;
+    padding: 5px;
+    color: #ffffff;
+    width: 900px;
+    border: solid 0px #7e7e7e;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+}
+
+.nav_head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px;
+}
+.slogan {
+    line-height: 160px;
+    height: 65px;
+    padding: 2px 0 0 0;
+    position: absolute;
+    width: 925px;
+    top: 2px;
+    left: 40px;
+
+}
+#bottom_dash {
+    padding: 0 45px 0 45px;
+    position: relative;
+    background:#209d9d url(img/button.png) repeat-x top left;
+    margin: 8px 0 5px 0;
+    height: 4px;
+    width: 100%;
+    border-top: solid 1px #5ad7d7;
+    border-bottom: 0 1px 1px #007d7d;
+}
+.sec_head {
+    position: relative;
+    margin: 15px 45px 0px 45px;
+    width: 890px;
+}
+.sec_head .view {
+    width: 890px;
+    height: 200px;
+    border: solid 1px #d4d4d4;
+    border-radius: 3px;
+}
+.slide {
+    width: 890px;
+    height: 250px;
+    padding: 10px;
+}
+.page {
+    padding: 5px 45px 15px 35px;
+    position: relative;
+    width: 970px;
+    margin: 0;
+    overflow: auto;
+    top: 0px;
+    bottom: 50px;
+    line-height: 1.3em;
+}
+.content {
+    width: 620px;
+    float: left;
+    margin-top: 20px;
+}
+.box {
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+#box1 {
+    width: 310px;
+    float: left;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+}
+.members_login {
+    width: 290px;
+    height: 190px;
+    border-radius:6px;
+    padding: 15px 0 0 10px;
+    background: url(img/login_bg.jpg);
+}
+
+h1 {
+    font-weight: normal;
+    letter-spacing: -1px;
+    font-size: 23px;
+    color:#36b3b3;
+}
+.input {
+    width: 280px;
+    float: left;
+    padding: 4px 0;
+}
+label.login {
+    width: 175px;
+    float: left;
+    text-align: right;
+    padding: 4px 8px 0 0 ;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+#username {
+    width: 85px;
+    margin-top: 8px;
+    height: 16px;
+    background-color: #ffffff;
+    border: 1px#cccccc solid;
+    float: left;
+}
+.password {
+    width: 85px;
+    margin-top: 8px;
+    height: 16px;
+    background-color: #ffffff;
+    border: 1px#cccccc solid;
+    float: left;
+}
+.input img {
+    aspect-ratio: auto 70 / 20;
+}
+.submit_btn {
+    background: url(img/button.png);
+    border: 0px solid #48484c;
+    float: right;
+    margin: 10px;
+    display: block;
+    line-height: 22px;
+    cursor:pointer;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 13px;
+    padding-left: 8px;
+    padding-right: 8px;
+    height:27px;
+    border-radius: 7px;
+}
+.sidebar {
+    width: 300px;
+    padding: 0;
+    margin: 0 0 0 630px;
+}
+p {
+    margin-bottom: 0.1em;
+    text-align: justify;
+    text-indent: 25px;
+}
+a {
+    text-decoration: underline;
+    color: #0f8c8c;
+}
+
+.form_login {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+   position: absolute;
+   
+   z-index: 9999;
+   }
+   #dataForm {
+    width: 300px;
+    height: auto;
+    background-color: #cccccc;
+   padding: 50px;
+   position: relative;
+   
+   }
+   #dataForm img {
+    width: 30px;
+    float: right;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+   }
+   input {
+    margin: 5px;
+   }
+   #dataForm button {
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    transform: translateX(50%);
+    background-color: #36b3b3;
+    border-radius: 8px;
+    cursor: pointer;
+   }
+   #footer {
+    text-align: center;
+    color: #333333;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: "Times New Roman", Times, serif;
+    font-style: normal;
+    width: 975px;
+    background: url(img/img02.gif) repeat-x top left;
+    border-radius: 5px;
+    height: 48px;
+    text-align: center;
+    bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 2px auto 15px;
+}

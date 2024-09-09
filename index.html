@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024, initial-scale=1.0">
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <title>oe1.annauniv.edu</title>
+
+</head>
+<body>
+    <div class="form_login" id="form_login">
+        <form id="dataForm">
+            <img id="cancel" src="img/cancel.png" alt="remove">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br>
+        
+            <label for="number">Register Number:</label>
+            <input type="number" id="number" required><br>
+        
+            <label for="sem">Semester:</label>
+            <input type="text" id="sem" required><br>
+        
+            <label for="code">Code:</label>
+            <input type="text" id="code" required><br>
+        
+            <label for="grade">Grade:</label>
+            <input type="text" id="grade" required><br>
+        
+            <label for="result">Result:</label>
+            <input type="text" id="result" required><br>
+        
+            <button type="submit">Save Data</button>
+        </form>
+    </div>
+   
+    
+
+    <div class="wrapper">
+        <nav>
+            <div class="nav_head">
+                <div class="slogan">
+                    <img src="img/logo.jpg" id="click_img" alt="aulo" width="85" height="85" style="margin-right: 30px; margin-left: 30px;padding-bottom: 5px;">
+                    <img src="img/topics.png" alt="topics">
+                </div>
+            </div>
+        </nav>
+        <div id="bottom_dash"></div>
+        <section class="sec_head">
+            <div class="view" style="position: relative; overflow: hidden;">
+                <div class="reel" style="position: absolute; left: 0px; top: 0px; display: block;">
+                    <div class="slide" style="text-align: center; vertical-align:middle; background-color: rgb(55, 179, 179); color: rgb(255, 255, 255);position: absolute;left: 0px; top: 0px;">
+                        <br>
+                        <br>
+                        <br>
+                        <h2 style="text-align: center; vertical-align: middle; color: #ffffff;font-family:calibri;font-size: 2.25rem;font-weight: normal;">Welcome to Office of the Controller of Examinations</h2>
+                        <h3 style="text-align: center; vertical-align: middle; color: #ffffff;font-family:calibri;font-size: 1.75em;font-weight: normal;">
+                            Pre-Examination Monitoring System
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="page" style="height: auto;">
+            <div class="content">
+                <div class="box" id="box1" style="float:left">
+                    <form action="#" id="login" autocomplete="off">
+                        <div class="members_login" style="height:235px;">
+                            <h1>Institution login</h1>
+                            <div class="input">
+                                <label class="login">Institution Code:</label>
+                                <input id="username" type="text" style="text-transform:uppercase;">
+                            </div>
+                            <div class="input">
+                                <label class="login">Password:</label>
+                                <input id="Password" class="password" type="password" >  
+                            </div>
+                            <div class="input">
+                                <label class="login" id="captcha1"> Enter the Captcha <br>
+                                <!-- <img id="captcha" src="img/cap.png" alt="" width="70px" height="20px"> -->
+                                </label>
+                                <input class="password" type="text">  
+                            </div>  
+                            <div class="input">
+                                <span style="color: #ffffff;float:left; margin-left: 40px; margin-top: 2px; cursor: pointer;">
+                                    <u id="click_open">Forgot Password</u>
+                                </span>
+                                <input type="submit" id="save" value="Login" class="submit_btn"  onclick="resultPage()">
+                            </div>                        
+                        </div>
+                    </form>
+                </div>
+                <div class="box" id="box1" style="float: left;">
+                    <form action="#" class="login_student">
+                        <div class="members_login" style="height:235px;">
+                            <h1>Student login</h1>
+                            <div class="input">
+                                <label class="login">Register Number</label>
+                                <input id="username" type="text" style="text-transform:uppercase;">
+                            </div>
+                            <div class="input" >
+                                <label class="login">Date of Birth
+                                    <br>
+                                    [DD-MM-YYYY]
+                                </label>
+                                <input id="username"  type="text" maxlength="10" size="10" required style="margin-top: 10px; width: 85px;">  
+                            </div>
+                            <div class="input">
+                                <label class="login" id="captcha2"> Enter the Captcha <br>
+                                <!-- <img id="captcha" src="img/cap.png" alt="" width="70px" height="20px"> -->
+                                </label>
+                                <input class="password" type="text">  
+                            </div>  
+                            <div class="input">
+                                <input type="submit" id="save" value="Login" class="submit_btn" onclick="resultPage()">
+                            </div>                        
+                        </div>
+                    </form>
+                </div>
+                <div class="sidebar">
+                    <div style="border: 2px solid black; padding-bottom: 3px;height: 475px; border-radius: 7px;">
+                            <div style="background-color: #37b3b3;color: #ffffff;border-radius: 3px;">
+                                Attention All Institutions &nbsp;&nbsp;
+                                <span style="width: 70px;position: absolute;float: right;color: #ffffff;">
+                                    <a href="#" style="color: white;">[View All ]</a>
+                                </span>
+                            </div>
+                            <marquee  direction="up" scrolldelay="150" style="height: 90%;width: -webkit-fill-available;">
+                                <div>
+                                    <p style="color: green;font-weight: bold;font-size: 20px;">
+                                        <font color="#ff0000" size="+1" >*</font>
+                                        Kind Attention to the Institutions: - Academic and Assessment Schedule - PG (M.E./M.Tech./M.Arch.) - April/May 2022 Examinations (Even Semester - Second Semester) - 
+                                        <a href="#">Click Here</a>
+                                        <img src="img/new_blink.gif">
+                                    </p>
+                                    <br>
+                                    <p style="color: red;font-weight: bold;font-size: 20px;">
+                                        <font color="#ff0000" size="+1" >*</font>
+                                        Kind Attention to the Institutions:- April/May/June 2022 - Schedule for Even Semester Practical Examinations (Except R-2021) - 
+                                        <a href="#">Click Here</a>
+                                        <img src="img/new_blink.gif">
+                                    </p>
+                                    <br>
+                                    <p style="color: blue;font-weight: bold;font-size: 20px;">
+                                        <font color="#ff0000" size="+1" >*</font>
+                                        Kind Attention to the Institutions:- Change of Exam Centres for Closed / Autonomous Colleges - Theory and Practical - April/May 2022 Examinations - 
+                                        <a href="#">Click Here</a>
+                                        <img src="img/new_blink.gif">
+                                    </p>
+                                    <br>
+                                    <p style="color: red;font-weight: bold;font-size: 20px;">
+                                        <font color="#ff0000" size="+1" >*</font>
+                                        Notification - Distance Education Programmes - Online Mode MBA(Business Analytics) First Semester July - August Examinations 2022 Time table. 
+                                        <a href="#">Click Here</a>
+                                        <img src="img/new_blink.gif">
+                                    </p>
+                                    <br>
+                                    <p style="color: green;font-weight: bold;font-size: 20px;">
+                                        <font color="#ff0000" size="+1" >*</font>
+                                        Kind Attention to the Institutions: - Academic and Assessment Schedule - PG (M.E./M.Tech./M.Arch.) - April/May 2022 Examinations (Even Semester - Second Semester) - 
+                                        <a href="#">Click Here</a>
+                                        <img src="img/new_blink.gif">
+                                    </p>
+                                </div>
+                            </marquee>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div id="footer">
+		
+		<table width="99.8%">
+			<tbody><tr>
+			  <td width="12%" align="left">
+						<b>
+								<a href="#" style="text-decoration:none;color:#333333;">Disclaimer &amp; Policy </a>
+						</b>
+			  </td>
+			  <td width="58%" align="center">
+						<b>
+								Designed and developed by: National Informatics Centre, Chennai.
+                                <br>
+                                <br>
+								Optimized for 1024 x 768 monitor resolution. Best Viewed with IE8+, Firefox 10+, Chrome 15+
+				        </b>
+			  </td>
+			  <td width="30%" align="right">
+						<b>
+								Content owned &amp; maintained by <br><br> Office of the COE, Anna University, Chennai. 	
+						</b> 				  
+			  </td>
+			</tr>
+	  </tbody>
+    </table>
+		
+	</div>
+<script>
+
+    var images = ['img1.jpg','img2.jpg','img3.png','img4.jpg','img5.jpg','img6.jpg','img7.jpg','img8.jpg','img9.jpg','img10.jpg','img11.png'];
+    function getRandomImage(exclude) {
+        var randomImage = images[Math.floor(Math.random() * images.length)];
+        
+        while (randomImage === exclude) {
+            randomImage = images[Math.floor(Math.random() * images.length)];
+        }
+        
+        return randomImage;
+    }
+
+    var randomImage1 = getRandomImage();
+    var randomImage2 = getRandomImage(randomImage1); 
+
+    document.getElementById('captcha1').innerHTML = '<img width="70px" height="20px" src="captcha_img/' + randomImage1 + '">';
+    document.getElementById('captcha2').innerHTML = '<img width="70px" height="20px" src="captcha_img/' + randomImage2 + '">';
+
+
+
+    document.getElementById('dataForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+
+    var sem = document.getElementById('sem').value;
+    var code = document.getElementById('code').value;
+    var grade = document.getElementById('grade').value;
+    var result = document.getElementById('result').value;
+    var name = document.getElementById('name').value;
+    var number = document.getElementById('number').value;
+
+
+    var userData = {
+        sem: sem,
+        code: code,
+        grade: grade,
+        result: result,
+        name: name,
+        number: number
+    };
+
+    var existingData = JSON.parse(localStorage.getItem('userData')) || [];
+
+    existingData.push(userData); 
+    localStorage.setItem('userData', JSON.stringify(existingData));
+
+
+    document.getElementById('dataForm').reset();
+});
+
+
+
+function resultPage() {
+    window.open('result.html', '_blank'); 
+};
+const login_form = document.getElementById('form_login');
+const login_click = document.getElementById('click_open');
+const cancel_btn = document.getElementById('cancel');
+login_form.style.display="none";
+    login_click.addEventListener('click', function() {
+        if (login_form.style.display === "none" || login_form.style.display === "") {
+            login_form.style.display = "block";
+        } else {
+            login_form.style.display = "none";
+        }
+    });
+    cancel_btn.addEventListener('click', function() {
+    login_form.style.display = "none"; 
+});
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024, initial-scale=1.0">
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="result.css">
+    <title>oe1.annauniv.edu</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   
+</head>
+<body>
+    <div class="wrapper">
+            <div class="nav_head">
+                <div class="slogan">
+                    <img src="img/logo.jpg" alt="aulo" width="85" height="90" style="margin-right: 30px; margin-left: 30px;padding-bottom: 5px;">
+                    <img src="img/topics.png" alt="topics">
+                </div>
+            </div>
+    
+        <div id="bottom_dash"></div>
+        <div style="width: 960px;color: #006633;">
+            <font class="welcometext" >Welcome <span class="displayName"></span>  !! </font>
+        </div>
+        <div id="page" style="height: auto" >
+            <br>
+            <div id="content" style="width: 98%;">
+                <div style="text-align: right;font-size: 21px;">
+                    <a href="index.html" style="color: #36b3b3;">Log out</a>
+                </div>
+                <br>
+                <br>
+                <div id="maincontainer">
+                    <div class="htmltabs" style="100%">
+                        <ul class="tabs">
+                            <li class="tab1">
+                                <a class="tab1 tab-current">Profile</a>
+                            </li>
+                            <li class="tab2">
+                                <a class="tab2" id="tab2">Exam schedule</a>
+                            </li>
+                            <li class="tab3">
+                                <a class="tab3" id="tab3">Reg.Preview </a>
+                            </li>
+                            &nbsp;
+                            <li class="tab4">
+                                <a class="tab4" id="tab4">assessment</a>
+                            </li>
+                            
+                            <li class="tab5">
+                                <a class="tab5" id="tab5">exam results</a>
+                            </li>
+                            <li class="tab6">
+                                <a class="tab6" id="tab6">elective</a>
+                            </li>
+                            <li class="tab7">
+                                <a class="tab7" id="tab7">grievance</a>
+                            </li>
+                        </ul>
+                        <div class="tab1 tabscontent" style="height: 100%; ">
+                            <br>
+                            <br>
+                            <div align="center">
+                                <div style="align-items: center;">
+                                    <h1 style="font-family: calibri;">Student Profile</h1>
+                                </div>
+                                <table width="100%" cellspacing="5" id="resulttable" style="width: 100%;font-size: 15px;text-align: left;">
+                                    <tbody>
+                                        <tr>
+                                            <td width="20%">
+                                                <strong>Register Number</strong>
+                                            </td>
+                                            <td width="68%" class="displayNumber"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <strong>Name</strong>
+                                            </td>
+                                            <td class="displayName"></td>
+                                        </tr>
+                                        <tr>
+                                            <td height="42">
+                                                <strong>Institution</strong>
+                                            </td>
+                                            <td >4226 - UNIVERSITY COLLEGE OF ENGINEERING, PANRUTI</td>
+                                        </tr>
+                                         <tr>
+                                            <td >
+                                                <strong>Branch</strong>
+                                            </td>
+                                            <td >114-B.E. Mechanical Engineering </td>
+                                         </tr>  
+                                    </tbody>
+                                </table>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="tab2 tabscontent" style="height: 100%;">
+                            <br>
+                            <br>
+                            <center>
+                                <h1 style="font-family: calibri;">No Record Found</h1>
+                            </center>
+                            <br>
+                            <br>
+                        " &nbsp; "
+                        </div>
+                        <div class="tab3 tabscontent" style="height: 100%;" align="center"></div>
+                        <div class="tab4 tabscontent" style="height: 100%;">
+                            <br>
+                            <br>
+                            <center>
+                                <h1 style="font-family: calibri;">No Record Found</h1>
+                            </center>
+                            <br>
+                            <br>
+                        " &nbsp; "
+                        </div>
+                        <div class="tab5 tabscontent" style="height: 100%;" align="center">
+                            <div align="right" style="text-align: right;">
+                                <font style="font-size: 18px;color: white;">
+                                    <a href="#" style="color: #36b3b3;">Print</a>
+                                </font>
+                            </div>
+                            <span id="pageprint">
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <div align="center">
+                                    <h2 style="font-family: calibri;font-size: 2.25em;"> Result for Jun. / July. Examination,2024</h2>
+                                    <br>
+                                    <table    align="center"   border="1" width="80%" rules="rows">
+                                        <tbody id="dataTable" class="data_table" >
+                                                <tr>
+                                                    <td colspan="4">
+                                                        <table style="width:100%;" >
+                                                            <tbody>
+                                                                    <tr>
+                                                                        <th style="text-align:left; width:150px;">Register Number : </th>
+                                                                        <th colspan="3" style="text-align:left;" class="displayNumber"></th>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th style="text-align:left;">Name : </th>
+                                                                        <th colspan="3" style="text-align:left;" class="displayName"></th>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <th style="text-align:left;">Branch :</th>
+                                                                        <th colspan="3" style="text-align:left;"> B.E. Mechanical Engineering</th>
+                                                                    </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                <th style="background:#1C7575;color:white;">Semester</th>
+                                                <th style="background:#1C7575;color:white;">Subject Code</th>
+                                                <th style="background:#1C7575;color:white;">Grade</th>
+                                                <th style="background:#1C7575;color:white;">Result</th>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </span>
+                        </div>
+                        <div class="tab6 tabscontent" style="height: 100%;">
+                            <br>
+                            <br>
+                            <center>
+                                <h1 style="font-family: calibri;">No Record Found</h1>
+                            </center>
+                            <br>
+                            <br>
+                            " &nbsp; "
+                        </div>
+                        <div class="tab7 tabscontent" style="height: 100%;">
+                            <br>
+                            <br>
+                            <center>
+                                <h1 style="font-family: calibri;">No Record Found</h1>
+                            </center>
+                            <br>
+                            <br>
+                            " &nbsp; "
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+		
+		<table width="99.8%">
+			<tbody><tr>
+			  <td width="12%" align="left">
+						<b>
+								<a href="disclamer.php" style="text-decoration:none;color:#333333;">Disclaimer &amp; Policy </a>
+						</b>
+			  </td>
+			  <td width="58%" align="center">
+						<b>
+								Designed and developed by: National Informatics Centre, Chennai.
+                                <br>
+                                <br>
+								Optimized for 1024 x 768 monitor resolution. Best Viewed with IE8+, Firefox 10+, Chrome 15+
+				        </b>
+			  </td>
+			  <td width="30%" align="right">
+						<b>
+								Content owned &amp; maintained by <br><br> Office of the COE, Anna University, Chennai. 	
+						</b> 				  
+			  </td>
+			</tr>
+	  </tbody></table>
+		
+	</div>
+<script>
+  $(document).ready(function() 
+{
+	$('div.htmltabs div.tabscontent').hide();//tabsContent class is used to hide all the tabs content in the start
+	$('div.tab1').show(); // It will show the first tab content when page load, you can set any tab content you want - just put the tab content class e.g. tab4
+	$('div.htmltabs ul.tabs li.tab1 a').addClass('tab-current');// We will add the class to the current open tab to style the active state
+	//It will add the click event on all the anchor tag under the htmltabs class to show the tab content when clicking to the tab
+	$('div.htmltabs ul li a').click(function()
+	{
+		var thisClass = this.className.slice(0,4);//"this" is the current anchor where user click and it will get the className from the current anchor and slice the first part as we have two class on the anchor 
+		$('div.htmltabs div.tabscontent').hide();// It will hide all the tab content
+		$('div.' + thisClass).show(); // It will show the current content of the user selected tab
+		$('div.htmltabs ul.tabs li a').removeClass('tab-current');// It will remove the tab-current class from the previous tab to remove the active style
+		$(this).addClass('tab-current'); //It will add the tab-current class to the user selected tab
+		$('#page').resize();
+	});
+});
+    
+		
+
+  
+document.onmousedown=disableclick;
+    status="Right Click Disabled";
+    function disableclick(e)
+    {
+      if(e.button==2)
+       {
+         alert(status);
+         return false;    
+       }
+    }
+   
+
+
+		
+		
+		var fooder_s;
+	
+		$(function() {
+    $(window).resize(function() 
+	{	
+		fooder_s=56;
+		if($('#page').height()+$('#page').offset().top+fooder_s < $(window).height())
+		$('#page').height($(window).height() - ($('#page').offset().top+fooder_s));
+		
+		var div= document.getElementById('page'); // need real DOM Node, not jQuery wrapper
+		var hasVerticalScrollbar= div.scrollHeight>div.clientHeight;	
+		
+		if(!hasVerticalScrollbar)
+       	{
+			
+	   		$('#page').height($(window).height() - ($('#page').offset().top+fooder_s));
+		}
+		var hasVerticalScrollbar= div.scrollHeight>div.clientHeight;
+		if(hasVerticalScrollbar)
+		{	
+			document.getElementById("page").style.height='auto';
+		}	
+		else
+		{
+			  $('#page').height($(window).height() - ($('#page').offset().top+fooder_s));
+			  
+		}	
+    });
+	 $('#page').resize(function() {
+	 				
+				 $('#page').height($(window).height() - ($('#page').offset().top+fooder_s));
+				 
+    });	
+    $(window).resize();
+	$('#page').resize();
+	
+	
+});		
+		
+</script>
+<script src="script.js"></script>
+
+</body>
+</html>
