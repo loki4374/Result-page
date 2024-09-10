@@ -321,6 +321,19 @@ document.onmousedown=disableclick;
 	
 });	
 
+
+function resultPage() {
+    
+            const userData = localStorage.getItem('userData');
+            
+            if (userData) {
+                window.location.href = 'result.html';
+            } else {
+                document.body.style.backgroundColor = '#ffffff';
+                document.body.style.color = 'red';
+                document.body.innerHTML = 'Server busy, please try again'; 
+            }
+};
 </script>
 
 </body>
